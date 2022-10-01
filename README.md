@@ -12,19 +12,16 @@
      * ``````````````````````````````````````````````````` *
      * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-# Low Side Synchronous Buck
+# SPIN
 
-This repository contains the design files relative to Low Side
-Synchronous Buck Power converter. 
+This repository contains the design files relative to the SPIN MCU dev board.
 
 # License 
 
 This project is under CERN-OHL-S open hardware Licence
 Licence can be consulted inside of the Licence folder.
 
-
 # Repository architecture 
-
 
 The repository has the following organization 
 
