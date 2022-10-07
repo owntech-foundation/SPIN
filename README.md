@@ -1,4 +1,3 @@
-
 # SPIN
 
 SPIN is a Dev' board specialized for power applications. 
@@ -23,7 +22,9 @@ SPIN has it's dedicated firmware that is meant to be super intuitive and simple 
 * Multiple SPIN synchronisation support
 * Dead-time support
 
-## Seamless measurement acquisition
+
+
+## Seamless measurement acquisition
 
 * 6 ADC channels 12bits ready to go!
 * 60kHz acquisition rate.
@@ -35,17 +36,17 @@ SPIN has it's dedicated firmware that is meant to be super intuitive and simple 
 * Fast intuitive computation
 * Support of optimized math functions from ARM libraries
 
-
 ## Real Time advanced control laws
 
 * Configurable Control Frequency.
 * Voltage Mode
 * Peak Current mode
 
-## IoT ready
+## IoT ready
 
 * Ready for Over the Air (OTA) update
 * Compatible with cloud based monitoring
+
 
 ![Hands On SPIN](Images/SPIN_Board.png)
 
