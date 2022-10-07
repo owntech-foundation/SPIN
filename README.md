@@ -8,10 +8,11 @@ It is built in order :
 * to generate super high resolution PWM signals
 * to retrieve synchronized fast and precise ADCs without blocking the processor
 * to make time critical and fast computation 
-
-![Hands On SPIN](Images/SPIN_Board.png)
+![Spin Pinout](Images/SPIN_pinout.png)
 
 SPIN has it's dedicated firmware that is meant to be super intuitive and simple to use. 
+
+![Hands On SPIN](Images/SPIN_Board.png)
 
 # License 
 
