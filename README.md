@@ -1,16 +1,51 @@
 
-
 # SPIN
 
 SPIN is a Dev' board specialized for power applications. 
-It is built in order :
+SPIN has it's dedicated firmware that is meant to be super intuitive and simple to use. 
 
-* to generate super high resolution PWM signals
-* to retrieve synchronized fast and precise ADCs without blocking the processor
-* to make time critical and fast computation 
 ![Spin Pinout](Images/SPIN_pinout.png)
 
-SPIN has it's dedicated firmware that is meant to be super intuitive and simple to use. 
+## Simple to use
+
+* Native USB support
+* OwnPlot compatible ! Graphical interface to monitore the application.
+* Verbose mode available
+* Debug friendly
+
+## Fast and precise PWM
+
+* 10 PWM signals ready to deploy !
+* Up to 55MHz PWM frequency
+* Up to 184ps temporal resolution
+* Center-aligned modulation support
+* Advanced phase shifting options
+* Multiple SPIN synchronisation support
+* Dead-time support
+
+## Seamless measurement acquisition
+
+* 6 ADC channels 12bits ready to go!
+* 60kHz acquisition rate.
+* Synchronized with the PWM generators to place the measurements in time acurately.
+* Non blocking acquisition system.
+
+## Floating point unit support
+
+* Fast intuitive computation
+* Support of optimized math functions from ARM libraries
+
+
+## Real Time advanced control laws
+
+* Configurable Control Frequency.
+* Voltage Mode
+* Peak Current mode
+
+## IoT ready
+
+* Ready for Over the Air (OTA) update
+* Compatible with cloud based monitoring
 
 ![Hands On SPIN](Images/SPIN_Board.png)
 
