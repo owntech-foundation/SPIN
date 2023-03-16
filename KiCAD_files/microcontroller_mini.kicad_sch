@@ -5,9 +5,9 @@
   (paper "A3")
 
   (title_block
-    (title "SPIN V0.9")
+    (title "SPIN V1.0.0")
     (date "2021-06-04")
-    (company "https://gitlab.laas.fr/owntech/1leg/-/tree/V1.1.2/KiCAD_files")
+    (company "https://gitlab.laas.fr/owntech/boards/SPIN")
     (comment 1 "Alinei")
     (comment 2 "Villa")
     (comment 3 "Villa")
