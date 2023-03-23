@@ -381,23 +381,18 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
-      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
-      "missing_bidi_pin": "warning",
-      "missing_input_pin": "warning",
-      "missing_power_pin": "error",
-      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -407,7 +402,6 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -464,244 +458,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "fine",
-        "pattern": "/HSE_IN"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "/HSE_OUT"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "/NRST"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "/VREF2048"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "Net-(C4-Pad1)"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "Net-(J8-Pad11)"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "Net-(JP1-Pad2)"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "Net-(LED1-Pad1)"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "Net-(LED2-Pad1)"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PA0"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PA1"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PA10"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PA13"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PA14"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PA15"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PA4"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PA5"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PA6"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PA7"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PA8"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PA9"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PB0"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PB1"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PB10"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PB11"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PB12"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PB13"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PB14"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PB15"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PB2"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PB3"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PB4"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PB5"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PB6"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PB7"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PB8"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PB9"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PC0"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PC1"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PC10"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PC11"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PC12"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PC13"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PC2"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PC3"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PC4"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PC5"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PC6"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PC7"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PC8"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PC9"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "PD2"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "unconnected-(J2-PadA8)"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "unconnected-(J2-PadB8)"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "unconnected-(J8-Pad1)"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "unconnected-(J8-Pad10)"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "unconnected-(J8-Pad2)"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "unconnected-(J8-Pad9)"
-      },
-      {
-        "netclass": "fine",
-        "pattern": "unconnected-(U1-Pad4)"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
