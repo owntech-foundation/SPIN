@@ -1639,33 +1639,31 @@
 				)
 			)
 		)
-		(symbol "Device:D_Small_Filled"
+		(symbol "Device:D_Schottky"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at -1.27 2.032 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "D_Small_Filled"
-				(at -3.81 -2.032 0)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1674,15 +1672,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode, small symbol, filled shape"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1691,7 +1680,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
+			(property "Description" "Schottky diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1700,16 +1689,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1727,22 +1707,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Small_Filled_0_1"
+			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -1754,21 +1722,33 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(symbol "D_Small_Filled_1_1"
+			(symbol "D_Schottky_1_1"
 				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
+					(at -3.81 0 0)
+					(length 2.54)
 					(name "K"
 						(effects
 							(font
@@ -1785,8 +1765,8 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
+					(at 3.81 0 180)
+					(length 2.54)
 					(name "A"
 						(effects
 							(font
@@ -7874,7 +7854,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 41.91) (xy 341.63 41.91)
+			(xy 335.28 41.91) (xy 339.09 41.91)
 		)
 		(stroke
 			(width 0)
@@ -14356,7 +14336,7 @@
 		(lib_id "Regulator_Linear:AP1117-33")
 		(at 341.63 118.11 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -14413,7 +14393,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6186"
+		(property "Reserved1" "e057f1cf1197ccaf308393a6f6a50ccc557d2682b00360"
 			(at 341.63 118.11 0)
 			(effects
 				(font
@@ -14774,7 +14754,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25076"
+		(property "Reserved1" "f7bda095c7a22f5a7b9fb267f63bc7db6f30307ee0a7"
 			(at 228.6 114.3 0)
 			(effects
 				(font
@@ -15000,7 +14980,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C1525 "
+		(property "Reserved1" "7b3cb94cdf07e390cf366c3cc999112669ae48b793b17b"
 			(at 166.37 44.45 0)
 			(effects
 				(font
@@ -15096,7 +15076,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C1525 "
+		(property "Reserved1" "7b3cb94cdf07e390cf366c3cc999112669ae48b793b17b"
 			(at 176.53 44.45 0)
 			(effects
 				(font
@@ -15192,7 +15172,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C1525 "
+		(property "Reserved1" "7b3cb94cdf07e390cf366c3cc999112669ae48b793b17b"
 			(at 186.69 44.45 0)
 			(effects
 				(font
@@ -15288,7 +15268,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C1525 "
+		(property "Reserved1" "7b3cb94cdf07e390cf366c3cc999112669ae48b793b17b"
 			(at 198.12 44.45 0)
 			(effects
 				(font
@@ -15384,7 +15364,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "Reserved1" "3d8a9489263d104085f579b50e3ca4d2b659e95e1bed"
 			(at 154.94 44.45 0)
 			(effects
 				(font
@@ -15480,7 +15460,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C1525 "
+		(property "Reserved1" "7b3cb94cdf07e390cf366c3cc999112669ae48b793b17b"
 			(at 252.73 44.45 0)
 			(effects
 				(font
@@ -15576,7 +15556,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "Reserved1" "645fbe0fb770d2555fb2ef4d57fc3d32b98a44297932"
 			(at 242.57 44.45 0)
 			(effects
 				(font
@@ -15737,7 +15717,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "Reserved1" "9fe540edcf7ebac1872c35b3dcde2846ce7b7135a530"
 			(at 262.89 154.94 0)
 			(effects
 				(font
@@ -15842,7 +15822,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84256"
+		(property "Reserved1" "b7c8193fc17838da8f8700e79654c1ad9c256f308ed662e0"
 			(at 262.89 144.78 0)
 			(effects
 				(font
@@ -16068,7 +16048,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15195"
+		(property "Reserved1" "0187ae70d14340d86f04d974ec4c27a5b008d75d8106"
 			(at 223.52 44.45 0)
 			(effects
 				(font
@@ -16164,7 +16144,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "Reserved1" "645fbe0fb770d2555fb2ef4d57fc3d32b98a44297932"
 			(at 213.36 44.45 0)
 			(effects
 				(font
@@ -16201,7 +16181,7 @@
 		(lib_id "Device:FerriteBead_Small")
 		(at 205.74 39.37 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -16260,6 +16240,15 @@
 		)
 		(property "Footprint-BOM" "0402"
 			(at 205.74 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reserved1" "fa9dc6132c52be12867bf8781b9c760772f915db328b94"
+			(at 205.74 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16410,7 +16399,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C1547 "
+		(property "Reserved1" "ea1971f5bd47344ab5e40edded0379fbeeb4e0f8e92933"
 			(at 88.9 45.72 0)
 			(effects
 				(font
@@ -16506,7 +16495,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C1547 "
+		(property "Reserved1" "ea1971f5bd47344ab5e40edded0379fbeeb4e0f8e92933"
 			(at 107.95 45.72 0)
 			(effects
 				(font
@@ -16677,7 +16666,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84256"
+		(property "Reserved1" "b7c8193fc17838da8f8700e79654c1ad9c256f308ed662e0"
 			(at 243.84 144.78 0)
 			(effects
 				(font
@@ -16779,7 +16768,7 @@
 		(lib_id "Connector_Generic:Conn_02x07_Odd_Even")
 		(at 248.92 109.22 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -16843,6 +16832,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Reserved1" "6a4bd15f720b85e8304b0d23a2845cf9bf9bbcb9b1fb8d98"
+			(at 248.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17024,7 +17022,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "Reserved1" "9fe540edcf7ebac1872c35b3dcde2846ce7b7135a530"
 			(at 243.84 154.94 0)
 			(effects
 				(font
@@ -17185,7 +17183,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C1525 "
+		(property "Reserved1" "7b3cb94cdf07e390cf366c3cc999112669ae48b793b17b"
 			(at 130.81 87.63 0)
 			(effects
 				(font
@@ -17222,7 +17220,7 @@
 		(lib_id "Switch:SW_Push")
 		(at 123.19 87.63 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -17290,6 +17288,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right bottom)
+			)
+		)
+		(property "Reserved1" "7aeae425a5712834e40376b9ec7a05ebec6147b6ef1fbb18"
+			(at 123.19 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17376,7 +17383,7 @@
 		(lib_id "Symbols:STM32G474RE")
 		(at 160.02 119.38 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -17435,6 +17442,15 @@
 			)
 		)
 		(property "Footprint-BOM" "LQFP-64"
+			(at 160.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reserved1" "70742f000f1395159f1f637dd92a9ca5bb7bb9665866bf"
 			(at 160.02 119.38 0)
 			(effects
 				(font
@@ -17708,7 +17724,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15850"
+		(property "Reserved1" "a72de955405c38380bf3e3ac83c8389b843a9beb2e48"
 			(at 331.47 127 0)
 			(effects
 				(font
@@ -17804,7 +17820,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15850"
+		(property "Reserved1" "a72de955405c38380bf3e3ac83c8389b843a9beb2e48"
 			(at 351.79 123.19 0)
 			(effects
 				(font
@@ -17899,7 +17915,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25091"
+		(property "Reserved1" "94b17578c4c0375b4f05339ee20d2d0d6725e6e349b5"
 			(at 118.11 40.64 0)
 			(effects
 				(font
@@ -18199,7 +18215,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "02634057-9faa-4f67-9346-2f41f4864ac8")
 		(property "Reference" "T1"
 			(at 26.67 257.175 0)
@@ -18411,7 +18427,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "06cfc8d6-3ef4-4fd9-a75b-39857675ecd3")
 		(property "Reference" "J1"
@@ -18700,7 +18716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" ""
 			(at 49.53 86.36 0)
 			(effects
 				(font
@@ -18718,7 +18734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf#" "CR0402-FX-2200GLF"
+		(property "Manf#" "0402WGF1003TCE"
 			(at 49.53 86.36 0)
 			(effects
 				(font
@@ -18727,7 +18743,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25091"
+		(property "Reserved1" "ba0f2a376e26f30a6ac1d204b86f6a0c21139e61d9c1"
 			(at 49.53 86.36 0)
 			(effects
 				(font
@@ -18755,111 +18771,6 @@
 			(project "spin"
 				(path "/87c78429-be2b-40ed-8d3b-56cb9666a56f"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small_Filled")
-		(at 344.17 41.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "112d5d25-80db-4eaa-b466-fbbd9ba4b9dd")
-		(property "Reference" "D1"
-			(at 344.17 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "D_Small_Filled"
-			(at 344.17 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 344.17 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 344.17 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 344.17 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint-BOM" "SOD523"
-			(at 344.17 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manf#" "1N4448X-TP"
-			(at 344.17 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 344.17 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 344.17 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2a4ced5-9b94-4f45-a056-86f13695ed52")
-		)
-		(pin "2"
-			(uuid "9eae8dbf-41fb-449c-8531-2d18798a621e")
-		)
-		(instances
-			(project "spin"
-				(path "/87c78429-be2b-40ed-8d3b-56cb9666a56f"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -19191,7 +19102,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25076"
+		(property "Reserved1" "f7bda095c7a22f5a7b9fb267f63bc7db6f30307ee0a7"
 			(at 351.79 130.81 0)
 			(effects
 				(font
@@ -19225,13 +19136,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 342.9 41.91 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fc1f266-d4a2-425c-b0be-624b7f9e7458")
+		(property "Reference" "D1"
+			(at 343.154 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RB521S30T1G"
+			(at 343.2175 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 342.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rb521s30t1-d.pdf"
+			(at 342.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 342.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reserved1" "0bac947a7378f15fe05eb6d164c98eb8547c1d7de3b2a4"
+			(at 342.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acdaeac7-556b-49db-8c9b-351963f6b856")
+		)
+		(pin "2"
+			(uuid "7ff4276d-a5ed-4b63-add8-88981d4ee58b")
+		)
+		(instances
+			(project ""
+				(path "/87c78429-be2b-40ed-8d3b-56cb9666a56f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 387.35 71.12 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "32419a16-e9a1-44d5-bd15-bd2c8f263319")
 		(property "Reference" "TP1"
@@ -19622,7 +19610,7 @@
 		(at 370.84 74.93 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -19688,6 +19676,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reserved1" "eced9b9d3e64f8dafdb949ec9c5c3a9bc86d14298709e1ad"
+			(at 370.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adb80dab-5dbb-4a9d-bb50-4acbcacec8c7")
 		)
@@ -19722,7 +19719,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "50ead589-b839-47c2-9d60-553f33a5d92c")
 		(property "Reference" "J1"
@@ -20049,7 +20046,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5618ed82-2163-4f6a-aa46-0924b33576f5")
 		(property "Reference" "T4"
 			(at 40.64 270.51 0)
@@ -20223,7 +20220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" ""
 			(at 83.82 86.36 0)
 			(effects
 				(font
@@ -20241,7 +20238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf#" "CR0402-FX-2200GLF"
+		(property "Manf#" "0402WGF1003TCE"
 			(at 83.82 86.36 0)
 			(effects
 				(font
@@ -20250,7 +20247,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25091"
+		(property "Reserved1" "ba0f2a376e26f30a6ac1d204b86f6a0c21139e61d9c1"
 			(at 83.82 86.36 0)
 			(effects
 				(font
@@ -20288,7 +20285,7 @@
 		(at 106.68 87.63 90)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -20356,6 +20353,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+			)
+		)
+		(property "Reserved1" "7aeae425a5712834e40376b9ec7a05ebec6147b6ef1fbb18"
+			(at 106.68 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20575,7 +20581,7 @@
 		(at 351.79 41.91 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -20605,7 +20611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/643/ds_CP_0zck_series-1664145.pdfhttps://www.mouser.fr/datasheet/2/643/ds_CP_0zck_series-1664145.pdf"
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zck-series.pdf"
 			(at 351.79 41.91 0)
 			(effects
 				(font
@@ -20633,6 +20639,15 @@
 			)
 		)
 		(property "Manf#" "0ZCK0035FF2G"
+			(at 351.79 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reserved1" "d2c3e8591f8ba933d370fd8bf11e0eb3159fe94b109c4e14"
 			(at 351.79 41.91 0)
 			(effects
 				(font
@@ -20729,6 +20744,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reserved1" "33076a3a1099e7c641a9368fbe7ce1528a418027895d"
+			(at 358.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a4f16981-fa74-4010-9d97-7346b1a88140")
 		)
@@ -20751,7 +20775,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "801d627d-20c9-4cf5-bfd2-ae7591b37ae8")
 		(property "Reference" "T3"
@@ -20830,10 +20854,10 @@
 		(lib_id "Jumper:SolderJumper_2_Bridged")
 		(at 237.49 138.43 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "85c1297c-7167-4e29-892a-fa92338d2035")
 		(property "Reference" "JP1"
 			(at 237.49 135.89 0)
@@ -21078,7 +21102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?28548"
+		(property "Datasheet" ""
 			(at 57.15 86.36 0)
 			(effects
 				(font
@@ -21096,7 +21120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf#" "VJ0402Y104KXXCW1BC"
+		(property "Manf#" "CL05B103KB5NNNC"
 			(at 57.15 86.36 0)
 			(effects
 				(font
@@ -21105,7 +21129,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C1525 "
+		(property "Reserved1" "0187ae70d14340d86f04d974ec4c27a5b008d75d8106"
 			(at 57.15 86.36 0)
 			(effects
 				(font
@@ -21207,7 +21231,7 @@
 		(lib_id "Device:Crystal_GND3")
 		(at 97.79 40.64 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -21265,6 +21289,15 @@
 			)
 		)
 		(property "Footprint-BOM" "2016"
+			(at 97.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reserved1" "5cd0b49329b07fb352943c2ba2c979a68a3824ce0636a907"
 			(at 97.79 40.64 0)
 			(effects
 				(font
@@ -21625,7 +21658,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ae946d1d-6b25-4d6b-9a06-1c0d8886c286")
 		(property "Reference" "T2"
 			(at 26.67 270.51 0)
@@ -21764,6 +21797,15 @@
 			)
 		)
 		(property "Manf#" "RC0402FR-135K1L"
+			(at 349.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reserved1" "33076a3a1099e7c641a9368fbe7ce1528a418027895d"
 			(at 349.25 53.34 0)
 			(effects
 				(font
@@ -21925,7 +21967,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ba9db57c-3779-4075-bb95-afda1ce1c00e")
 		(property "Reference" "J1"
@@ -22183,7 +22225,7 @@
 		(lib_id "Connector:USB_C_Receptacle_USB2.0")
 		(at 314.96 57.15 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -22232,7 +22274,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C165948"
+		(property "Reserved1" "0e39fec2e5502568bf6ec46f11efde074c48603fbf1964"
 			(at 314.96 57.15 0)
 			(effects
 				(font
@@ -22411,7 +22453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?28548"
+		(property "Datasheet" ""
 			(at 88.9 86.36 0)
 			(effects
 				(font
@@ -22429,7 +22471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf#" "VJ0402Y104KXXCW1BC"
+		(property "Manf#" "CL05B103KB5NNNC"
 			(at 88.9 86.36 0)
 			(effects
 				(font
@@ -22438,7 +22480,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C1525 "
+		(property "Reserved1" "0187ae70d14340d86f04d974ec4c27a5b008d75d8106"
 			(at 88.9 86.36 0)
 			(effects
 				(font
@@ -22672,7 +22714,7 @@
 		(at 314.96 118.11 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -22685,7 +22727,7 @@
 				)
 			)
 		)
-		(property "Value" "350mA"
+		(property "Value" "200mA"
 			(at 314.96 120.015 0)
 			(effects
 				(font
@@ -22729,7 +22771,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manf#" "0ZCK0035FF2G"
+		(property "Manf#" "0ZCK0020FF2G"
+			(at 314.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reserved1" "6cbd50413119dedd210b1b5109e0736fee39d08aff48154d"
 			(at 314.96 118.11 0)
 			(effects
 				(font
@@ -22757,10 +22808,10 @@
 		(lib_id "Connector:TestPoint")
 		(at 387.35 78.74 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "de63e3af-2e08-4cb3-9b5a-736a782eeff4")
 		(property "Reference" "TP3"
@@ -22824,10 +22875,10 @@
 		(lib_id "Connector:TestPoint")
 		(at 396.24 71.12 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ed17c5c4-6418-4642-971c-5ece0671b89c")
 		(property "Reference" "TP2"
@@ -22894,7 +22945,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "eea44764-895a-4bf4-a8e0-6a4bcf5a1360")
 		(property "Reference" "J1"
